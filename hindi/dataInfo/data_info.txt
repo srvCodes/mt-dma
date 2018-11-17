@@ -1,0 +1,82 @@
+path = "/home/saurav/Documents/hindi_morph_analysis/HDTB_pre_release_version-0.05/InterChunk/CoNLL/utf/news_articles_and_heritage/Development/"
+
+total files = 112
+total words = 21651
+total sentences = 1864
+average length of sentences = 11.615 words
+no. of unique words = 4348
+
+path = Training set
+
+total files = 932
+total words = 1,74,165
+total sentences = 15,081
+mean length = 11.549 words
+no. of unique words = 14,025
+
+path = Test set
+
+files = 131
+words =21,989
+sentences = 1910
+mean len = 11.513 words
+no of unique words = 4436
+
+Combined dev + training set:
+
+total sentences = 16945
+mean len = 11.556 words
+unique = 14,941 words
+words total = 1,95,816
+
+For INtra chunk data:
+
+1. Development set
+
+total files = 112
+total words = 37736
+total sentences = 1743
+average length of sentences = 21.65 words
+no. of unique words = 5590
+
+2. Training set
+
+total files = 932
+total words = 3,02,375
+total sentences = 14,089
+average length of sentences = 21.462 words
+no. of unique words = 17,687
+
+3. Test set
+
+total files = 131
+total words = 38,954
+total sentences = 1,804
+average length of sentences = 21.593 words
+no. of unique words = 5,681
+
+4. Dev + training
+
+total words = 3,40,111
+total sentences = 15,832
+average length of sentences = 21.482 words
+no. of unique words = 18,892
+
+
+# Types of Features in combined corpus of Intrachunk Dev+Training:
+
+1. Cat: {'n': 115127, 'psp': 66299, 'v': 57696, 'avy': 23073, 'punc': 23007, 'adj': 21043, 'pn': 19208, 'num': 7192, 'nst': 4728, 'adv': 1534, 'unk': 986, 'null': 110, 's': 58, 'Unk': 45, 'punk': 3, 'c': 1, '०००': 1}
+
+2. gen: {'m': 125585, 'Unk': 96606, 'any': 65324, 'f': 52589, 'punc': 6, 'num': 1}
+
+3. num: {'sg': 179220, 'Unk': 98370, 'any': 32750, 'pl': 29770, 'punc': 1}
+
+4. person: {'3': 153133, 'Unk': 146888, 'any': 33184, '3h': 5582, '1': 917, '2h': 381, '2': 26}
+
+5. case: {'Unk': 151723, 'o': 101266, 'd': 80672, 'any': 6443, '0': 6, 'ए': 1}
+
+6. vib has many
+
+7. tam: {'Unk': 156609, '0': 126304, 'yA': 18485, 'hE': 11012, 'nA': 7681, 'wA': 3482, 'yA1': 3148, 'WA': 2592, 'gA': 2319, 'kA': 1833, 'ne': 1716, 'ko': 1135, 'kara': 1098, 'ke': 944, 'eM': 688, 'se': 495, 'meM': 486, 'ao': 18, 's': 15, 'aO': 9, 'kar': 9, 'o': 5, 'e': 5, 'जी': 4, 'ya1': 3, 'me': 3, 'nA_vAlA': 3, 'hAi': 2, 'UZ': 2, 'hEM': 2, 'sE': 1, 'kO': 1, 'hai': 1, 'से': 1})
+
+8. chunkId: {'NP': 36574, 'NP2': 36381, 'NP3': 34805, 'NP4': 29889, 'VGF': 28478, 'NP5': 24526, 'NP6': 19249, 'BLK': 15746, 'VGF2': 14594, 'NP7': 14513, 'VGNN': 11912, 'NP8': 10620, 'CCP': 8979, 'NP9': 7450, 'JJP': 6830, 'NP10': 5249, 'VGNF': 4933, 'VGF3': 3949, 'NP11': 3603, 'CCP2': 3024, 'NP12': 2465, 'VGNN2': 2446, 'RBP': 1881, 'NP13': 1595, 'JJP2': 1519, 'NP14': 1055, 'CCP3': 839, 'VGF4': 800, 'VGNF2': 686, 'NP15': 636, 'NULL__CCP': 469, 'NULL__VGF': 439, 'NP16': 405, 'VGNN3': 393, 'NULL__NP': 389, 'FRAGP': 347, 'JJP3': 285, 'NP17': 281, 'CCP4': 207, 'NP18': 203, 'VGF5': 155, 'NP19': 129, 'BLK2': 129, 'RBP2': 127, 'NEGP': 125, 'NP20': 98, 'VGNF3': 91, 'VGNN4': 66, 'JJP4': 53, 'CCP5': 46, 'NULL__VGF2': 44, 'NP21': 39, 'NP22': 25, 'VGF6': 25, 'VGNN5': 17, 'NP24': 17, 'NP25': 16, 'NP27': 14, 'NP23': 13, 'NP26': 12, 'FRAGP2': 12, 'NULL__CCP2': 11, 'JJP5': 10, 'NULL__NP2': 10, 'CCP6': 10, 'VGNF4': 10, 'NP30': 10, 'NP28': 9, 'NULL__VGF3': 9, 'NP32': 8, 'NULL__VGNF': 8, 'NP34': 7, 'NULL__VGNN': 7, 'VGNN6': 6, 'NP31': 6, 'NULL__VGF4': 6, 'NULL__VGF5': 5, 'NP29': 5, 'NP44': 4, 'NP33': 4, 'NULL__VGF6': 3, 'NP36': 3, 'NP40': 3, 'NP47': 3, 'BLK3': 3, 'NEGP2': 3, 'NP39': 3, 'NP45': 2, 'VGNF5': 2, 'NULL__NP7': 2, 'NULL__NP5': 2, 'NULL__VGF8': 2, 'NULL__VGNN2': 2, 'NULL__NP4': 2, 'NP43': 2, 'CCP7': 2, 'JJP6': 2, 'NP35': 2, 'NULL__NP8': 2, 'NULL__VGF7': 2, 'RBP3': 2, 'NP38': 2, 'NULL__NP3': 2, 'NULL__NP6': 2, 'NP41': 2, 'CCP9': 1, 'NP42': 1, 'NULL__CCP3': 1, 'NULL__VGNN3': 1, 'JJP7': 1, 'NULL__VGNN5': 1, 'NULL__VGF9': 1, 'NP46': 1, 'NULL__VGNN4': 1, 'NP37': 1, 'FRAGP3': 1, 'CCP8': 1}

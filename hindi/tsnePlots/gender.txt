@@ -1,0 +1,16 @@
+[t-SNE] Computing 121 nearest neighbors...
+[t-SNE] Indexed 10000 samples in 0.008s...
+[t-SNE] Computed neighbors for 10000 samples in 2.393s...
+[t-SNE] Computed conditional probabilities for sample 1000 / 10000
+[t-SNE] Computed conditional probabilities for sample 2000 / 10000
+[t-SNE] Computed conditional probabilities for sample 3000 / 10000
+[t-SNE] Computed conditional probabilities for sample 4000 / 10000
+[t-SNE] Computed conditional probabilities for sample 5000 / 10000
+[t-SNE] Computed conditional probabilities for sample 6000 / 10000
+[t-SNE] Computed conditional probabilities for sample 7000 / 10000
+[t-SNE] Computed conditional probabilities for sample 8000 / 10000
+[t-SNE] Computed conditional probabilities for sample 9000 / 10000
+[t-SNE] Computed conditional probabilities for sample 10000 / 10000
+[t-SNE] Mean sigma: 0.155903
+[t-SNE] KL divergence after 250 iterations with early exaggeration: 72.990891
+[t-SNE] Error after 1000 iterations: 0.770680

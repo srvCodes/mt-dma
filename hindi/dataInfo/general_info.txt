@@ -1,0 +1,23 @@
+
+
+1. without pre-trained embeddings
+
+a. Attention decoder => 17 epochs, val_loss = 0.1362, patience = 10 
+
+2. Individual features:
+
+a. y1: Epoch 00052: val_loss improved from 0.11006 to 0.10815
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+b. y2: 
+
+3. Multi Task learning
+
+a. first model: epoch 25, patience = 20
+=======
+b. y2: 
+>>>>>>> 424c95f6a755917093c5ac20e3eaee5c09ecdff6
+=======
+b. y2: 
+>>>>>>> 424c95f6a755917093c5ac20e3eaee5c09ecdff6
