@@ -1,0 +1,41 @@
+1. Test set info;
+
+Mean len:  27.674766355140186
+Total words:  14806
+Unique words:  2949
+Total sentences = 535
+
+2. Train set info:
+
+Total sentences: 4043
+Mean len:  26.883502349740294
+Total words:  108690
+Unique words:  9547
+
+3. Development set info:
+
+Total sentences: 552
+Mean len:  26.41485507246377
+Total words:  14581
+Unique words:  2888
+
+4. Train + Dev set info:
+
+Total sentences: 4595
+Mean len:  26.8272034820457
+Total words:  123271
+Unique words:  10222
+
+# Types of Features in combined corpus of Dev+Training:
+
+1. cat:  Counter({'NOUN': 29279, 'ADP': 25042, 'PROPN': 15162, 'VERB': 10630, 'AUX': 9052, 'ADJ': 9002, 'PUNCT': 6231, 'PRON': 5097, 'CCONJ': 2910, 'PART': 2703, 'SCONJ': 2425, 'DET': 2259, 'NUM': 2194, 'ADV': 1261, 'X': 22, 'INTJ': 2})
+
+2. gender:  Counter({'Unk': 57290, 'Masc': 53663, 'Fem': 12318})
+
+3. number:  Counter({'Sing': 65908, 'Unk': 48250, 'Plur': 9113})
+
+4. person:  Counter({'Unk': 66339, '3': 56575, '1': 288, '2': 69})
+
+5. Case:  Counter({'Unk': 55916, 'Acc': 33917, 'Nom': 33070, 'Acc,Dat': 330, 'Acc,Gen': 34, 'Acc,Ins': 3, 'Acc,Erg': 1})
+
+6. TAM:  Counter({'Unk': 55185, '0': 50782, 'yA': 6558, 'hE': 3586, 'nA': 1951, 'wA': 1474, 'yA1': 1036, 'WA': 949, 'gA': 621, 'eM': 412, 'ko': 330, 'ga': 162, 'ka': 74, 'eN': 54, 'kA': 34, 'kara': 26, 'ao': 20, 'aO': 10, 'se': 3, 'ba': 1, 'ne': 1, 'Uz': 1, 'ya': 1})
