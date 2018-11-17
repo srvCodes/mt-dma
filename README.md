@@ -28,4 +28,9 @@ Both the directories follow the organization:
 
 6. Outputs for [t-SNE plots](https://github.com/Saurav0074/mt-dma/tree/master/hindi/tsnePlots), [GA graphs](https://github.com/Saurav0074/mt-dma/tree/master/hindi/gaGraphs), and [Precision-Recall curves](https://github.com/Saurav0074/mt-dma/tree/master/hindi/prCurves).
 
+# MOO optimization
+
+Cubic-spline interpolations for validation accuracies of population:
+
+![images](https://github.com/Saurav0074/mt-dma/blob/master/hindi/images/cubic-splines.png)
 
